@@ -4,8 +4,6 @@ Instructivo de Script Python para descargar automáticamente Resoluciones PDF de
 juancarlos@21719.cl
 Agosto de 2025.
 
-Código Python disponible en: https://github.com/JCLLV/descarga_automatica_res_AEPD
-
 ********************************************************************************************
 
 
@@ -46,9 +44,6 @@ Reanudación: con --resume no vuelve a bajar PDFs existentes y recuerda la últi
 Robustez: si un enlace de la lista apunta a una ficha, el script abre la ficha y busca dentro el enlace .pdf real; si es PDF directo, lo descarga. Valida por Content-Type y por extensión.
 
 Pruebas: primero corre con --max-pages 2 para verificar que está guardando correctamente, y luego elimina ese límite.
-
-Si luego quieres que lo deje programado para correr cada semana o adaptar nombres/carpeta por año (por ejemplo, 2024/PS-xxxx-2024.pdf), te lo ajusto en un minuto.
-
 
 ---
 
